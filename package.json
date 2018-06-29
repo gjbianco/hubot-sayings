@@ -1,0 +1,12 @@
+{
+  "name": "hubot-sayings",
+  "version": "1.0.0",
+  "description": "store sayings for hubot to remember (uses hubot brain)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guy Bianco IV <gjbiancoiv@gmail.com>",
+  "repository": "https://github.com/gjbianco/hubot-sayings",
+  "license": "MIT"
+}
