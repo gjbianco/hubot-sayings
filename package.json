@@ -1,6 +1,6 @@
 {
   "name": "hubot-sayings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "store sayings for hubot to remember (uses hubot brain)",
   "main": "index.js",
   "scripts": {
