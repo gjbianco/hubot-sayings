@@ -6,7 +6,7 @@ function getKey (key) {
 
 module.exports = (robot) => {
 
-  robot.hear(/^!remember (\w+) (.+)$/si, (res) => {
+  robot.hear(/^!remember (\w+) ([.\n]+)$/i, (res) => {
     robot.brain.set(getKey(res.match[1]), res.match[2])
     res.send('okay, i\'ll remember that')
   })
